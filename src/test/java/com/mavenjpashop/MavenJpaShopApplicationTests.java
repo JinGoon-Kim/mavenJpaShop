@@ -1,0 +1,13 @@
+package com.mavenjpashop;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class MavenJpaShopApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
