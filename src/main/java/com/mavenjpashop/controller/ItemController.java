@@ -10,7 +10,7 @@ public class ItemController {
 
     @GetMapping(value = "/admin/item/new")
     public String itemForm(Model model){
-        model.addAttribute("itemFromDto", new ItemFormDto());
+        model.addAttribute("itemFormDto", new ItemFormDto());
         return "item/itemForm";
     }
 }
